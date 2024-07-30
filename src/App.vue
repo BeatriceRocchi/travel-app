@@ -17,10 +17,26 @@ export default {
 </script>
 
 <template>
-  <Header />
-  <Main />
+  <div class="d-flex justify-content-between">
+    <div class="content-wrapper w-100">
+      <Header />
+      <Main />
+    </div>
+
+    <div class="d-none d-lg-block map-wrapper">Mappa</div>
+  </div>
 </template>
 
 <style lang="scss">
 @use "./assets/scss/main.scss";
+.content-wrapper {
+  background-color: red;
+}
+
+.map-wrapper {
+  background-color: aquamarine;
+  height: 100vh;
+  width: 50%;
+  flex-shrink: 0;
+}
 </style>
