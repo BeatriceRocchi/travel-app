@@ -1,6 +1,7 @@
 <script>
 import { store } from "../data/store";
 import StopCard from "./partials/StopCard.vue";
+import Aside from "./Aside.vue";
 
 export default {
   data() {
@@ -10,6 +11,7 @@ export default {
   },
   components: {
     StopCard,
+    Aside,
   },
 };
 </script>
@@ -17,10 +19,10 @@ export default {
 <template>
   <main>
     <div class="d-md-flex">
-      <aside>Aside</aside>
+      <Aside />
       <div class="travel-wrapper">
         <ul v-for="(dayTrip, id) in store.USATrip" :key="id">
-          <h4>{{ dayTrip.date }} - {{ dayTrip.title }}</h4>
+          <h4>{{ dayTrip.date }} | {{ dayTrip.title }}</h4>
           <li v-for="(stop, id) in dayTrip.stops" :key="id">
             <StopCard :stopObj="stop" :stopId="id" />
           </li>
@@ -32,11 +34,6 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/partials/variables";
-aside {
-  background-color: greenyellow;
-  min-width: 200px;
-  overflow-y: auto;
-}
 
 .travel-wrapper {
   height: calc(100vh - 80px);
