@@ -29,14 +29,11 @@ export default {
 
 <style lang="scss">
 @use "./assets/scss/main.scss";
-.content-wrapper {
-  background-color: red;
-}
 
 .map-wrapper {
   background-color: aquamarine;
   height: 100vh;
-  width: 50%;
+  width: 40%;
   flex-shrink: 0;
 }
 </style>
