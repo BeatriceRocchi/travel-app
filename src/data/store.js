@@ -1,5 +1,6 @@
 import { reactive } from "vue";
+import { USATrip } from "./db.json";
 
 export const store = reactive({
-  counter: 0,
+  USATrip,
 });

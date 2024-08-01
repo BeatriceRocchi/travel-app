@@ -1,0 +1,44 @@
+{
+  "USATrip": {
+    "Giovedì 15 Agosto": [
+      {
+        "title": "Union Square",
+        "description": "Union Square è la piazza centrale di Downtown San Francisco ma non solo: è un luogo di ritrovo, un punto dove sedersi e rilassarsi dopo tanto shopping, o un posto perfetto per partire alla scoperta delle strade vicine ricche di negozi di grandi marche, così come di boutique o centri commerciali, piene di ristoranti e bar che offrono qualsiasi tipo di cucina tu possa immaginare, gallerie d’arte e teatri, hotel rinomati e importanti musei.",
+        "img": "union-square.jpeg",
+        "lat": 37.79,
+        "long": -122.41,
+        "note": "",
+        "rating": 0
+      },
+      {
+        "title": "Salesforce Tower",
+        "description": "La Salesforce Tower è un grattacielo ad uso uffici situato nel quartiere South of Market della città statunitense di San Francisco. Con un'altezza complessiva di 326 metri, è il grattacielo più alto della città di San Francisco e il secondo più alto della California. Il Salesforce Transit Center ha aperto il Salesforce Park, un parco urbano che è diventato un popolare punto di riferimento per il centro. Estendendosi su quasi 4 isolati, questo parco sul tetto di 5,4 acri presenta uno splendido paesaggio con 600 alberi, 16.000 piante e una fontana lineare.",
+        "img": "salesforce-tower.jpg",
+        "lat": 39.77,
+        "long": -86.16,
+        "note": "",
+        "rating": 0
+      }
+    ],
+    "Venerdì 16 Agosto": [
+      {
+        "title": "Painted Ladies",
+        "description": "Queste case in stile vittoriano, poste una accanto all’altra, all’angolo di Alamo Square, colpiscono per la varietà delle colorazioni e la raffinata eleganza, è davvero difficile che il vostro occhio non si soffermi sulle seven sisters (“7 sorelle”), un altro nomignolo ricorrente con cui vengono spesso apostrofate, e non è un caso che, insieme ad attrazioni “iconiche” come Lombard Street e Golden Gate, siano uno dei soggetti più fotografati di tutta San Francisco.",
+        "img": "painted-ladies.jpg",
+        "lat": 37.78,
+        "long": -122.43,
+        "note": "",
+        "rating": 0
+      },
+      {
+        "title": "Golden Gate Park",
+        "description": "Il Golden Gate Park è un grande parco rettangolare di San Francisco visitato da più di 10 milioni di persone ogni anno. Dall’alto potrebbe ricordare Central Park per via della forma e della grandezza, ma il Golden Gate Park lo supera di 70 ettari e risulta essere il quinto parco cittadino più visitato degli Stati Uniti. Nella sua lunghezza (4,5 chilometri), offre piste ciclabili, musei, laghetti, giardini e ampi spiazzi per rilassarsi dopo una faticosa giornata tra le salite di San Francisco.",
+        "img": "golden-gate-park.jpg",
+        "lat": 37.77,
+        "long": -122.48,
+        "note": "",
+        "rating": 0
+      }
+    ]
+  }
+}
