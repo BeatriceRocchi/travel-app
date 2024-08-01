@@ -21,6 +21,33 @@
           "long": -122.396,
           "note": "",
           "rating": 0
+        },
+        {
+          "title": "Ferry Building",
+          "description": "Una volta il Ferry Building era un importante snodo per i trasporti: negli anni ’20 dalle vicinanze della baia vi si riversavano ogni giorno ben 50000 pendolari, facendo del luogo una sorta di crocevia frenetico. Oggi il Ferry Building si presenta in un modo completamente diverso: un luogo di quiete e tranquillità, dove spicca, nella brezza mattutina, un suggestivo campanile ispirato alla Giralda la torre campanaria della cattedrale di Siviglia che da più di 100 anni fa bella mostra di se. I momenti migliori per visitare il Ferry Building sono quando c’è il Ferry Plaza Farmers Market, quando bancarelle di ogni tipo sono disposte intorno alla costruzione, lasciandovi un’ampia scelta per le vostre colazioni o pranzi.",
+          "img": "ferry-building.jpg",
+          "lat": 37.795,
+          "long": -122.394,
+          "note": "",
+          "rating": 0
+        },
+        {
+          "title": "Transamerica Pyramid",
+          "description": "Al momento della sua inaugurazione nel 1972, la Transamerica Pyramid con i suoi 260 metri era il grattacielo più alto di San Francisco e di tutti gli Stati Uniti occidentali. In città, però, la sua altezza e le sue forme eccentriche lo resero sin da subito un simbolo di San Francisco. La Transamerica Pyramid fa parte del complesso denominato Transamerica Pyramid Center che comprende anche gli edifici 3 Transamerica e 2 Transamerica oltre al Transamerica Redwood Park, che si estende per 2.000 metri quadri.",
+          "img": "transamerica-pyramid.jpg",
+          "lat": 37.795,
+          "long": -122.403,
+          "note": "",
+          "rating": 0
+        },
+        {
+          "title": "Chinatown",
+          "description": "La Chinatown di San Francisco è la più grande comunità cinese fuori dall’Asia. È stata fondata nel 1848, anno che diede inizio ad un flusso migratorio da Guangdong e Hong Kong fino al ‘900, ed è l’area più densamente popolata ad ovest di Manhattan. Tra i suoi confini vivono più di 100.000 persone, molte delle quali parlano solo cinese mandarino o cantonese. Tra arte, templi e tè, la Chinatown più antica degli Stati Uniti vi catapulterà in una dimensione totalmente nuova.",
+          "img": "chinatown.jpg",
+          "lat": 37.795,
+          "long": -122.404,
+          "note": "",
+          "rating": 0
         }
       ]
     },
