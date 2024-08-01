@@ -1,12 +1,14 @@
 <script>
 import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
+import Map from "./components/partials/Map.vue";
 import { store } from "./data/store";
 
 export default {
   components: {
     Header,
     Main,
+    Map,
   },
   data() {
     return {
@@ -23,7 +25,9 @@ export default {
       <Main />
     </div>
 
-    <div class="d-none d-lg-block map-wrapper">Mappa</div>
+    <div class="d-none d-lg-block map-wrapper">
+      <Map />
+    </div>
   </div>
 </template>
 
@@ -31,7 +35,6 @@ export default {
 @use "./assets/scss/main.scss";
 
 .map-wrapper {
-  background-color: aquamarine;
   height: 100vh;
   width: 40%;
   flex-shrink: 0;

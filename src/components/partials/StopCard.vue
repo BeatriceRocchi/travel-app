@@ -64,7 +64,8 @@ export default {
 
   .img-box {
     overflow: hidden;
-    height: 200px;
+    height: 220px;
+    padding-top: 16px;
 
     img {
       height: 100%;

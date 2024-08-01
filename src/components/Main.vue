@@ -1,6 +1,7 @@
 <script>
 import { store } from "../data/store";
 import StopCard from "./partials/StopCard.vue";
+
 export default {
   data() {
     return {
