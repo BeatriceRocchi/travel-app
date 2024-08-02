@@ -4,4 +4,5 @@ import { USATrip } from "./db.json";
 export const store = reactive({
   USATrip,
   locationsName: [],
+  checkedStops: [],
 });

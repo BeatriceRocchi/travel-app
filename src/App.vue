@@ -15,6 +15,11 @@ export default {
       store,
     };
   },
+  mounted() {
+    if (localStorage.checkedStops) {
+      store.checkedStops = localStorage.checkedStops.split(",");
+    }
+  },
 };
 </script>
 

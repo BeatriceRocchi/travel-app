@@ -1,12 +1,21 @@
 <script>
+import { store } from "../../data/store";
 export default {
   props: {
     stopObj: Object,
     stopId: Number,
   },
+  data() {
+    return {
+      store,
+    };
+  },
   methods: {
     getImgPath(img) {
       return new URL(`../../assets/img/${img}`, import.meta.url).href;
+    },
+    saveCheckedStops() {
+      localStorage.setItem("checkedStops", store.checkedStops);
     },
   },
 };
@@ -21,9 +30,13 @@ export default {
 
         <input
           class="stop-check"
+          :checked="store.checkedStops.includes(stopObj.title) ? 'checked' : ''"
           type="checkbox"
-          name="stopCheck"
+          name="checkStop"
           :id="stopId"
+          :value="stopObj.title"
+          v-model="store.checkedStops"
+          @change="saveCheckedStops"
         />
       </div>
 
@@ -72,7 +85,7 @@ export default {
       margin-top: 20px;
       width: 25px;
       height: 25px;
-      accent-color: #fee440;
+      accent-color: $primary-color;
     }
   }
 
