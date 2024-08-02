@@ -15,9 +15,16 @@ export default {
 <template>
   <div class="card card-custom mb-4">
     <div class="row g-0">
-      <div class="col-md-1 text-center stop-id-box">
+      <div class="col-md-1 d-flex flex-column align-items-center stop-id-box">
         <i class="fa-solid fa-location-pin"></i>
         <p class="id">{{ stopId + 1 }}</p>
+
+        <input
+          class="stop-check"
+          type="checkbox"
+          name="stopCheck"
+          :id="stopId"
+        />
       </div>
 
       <div class="col-md-7">
@@ -59,6 +66,13 @@ export default {
       transform: translate(-50%, 80%);
       color: white;
       font-weight: 600;
+    }
+
+    .stop-check {
+      margin-top: 20px;
+      width: 25px;
+      height: 25px;
+      accent-color: #fee440;
     }
   }
 
