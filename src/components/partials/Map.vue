@@ -39,10 +39,15 @@ export default {
       const tomtom = window.tt;
 
       state.locations.forEach(function (location, i) {
-        // var element = document.createElement("div");
-        // element.id = "marker";
+        let element = document.createElement("div");
+        element.classList.add("marker");
+        element.innerHTML = `<i class="fa-solid fa-location-dot"></i>`;
+        element.style.fontSize = "2rem";
+        element.style.color = "#9b5de5";
 
-        var marker = new tomtom.Marker().setLngLat(location).addTo(map);
+        var marker = new tomtom.Marker({ element: element })
+          .setLngLat(location)
+          .addTo(map);
         const popup = new tt.Popup({ anchor: "top" }).setText(
           store.locationsName[i]
         );
@@ -81,11 +86,4 @@ export default {
   height: 100%;
   width: 100%;
 }
-
-// #marker {
-//   background-image: url("../../assets/img/pin.png");
-//   background-size: cover;
-//   width: 50px;
-//   height: 70px;
-// }
 </style>
