@@ -13,11 +13,21 @@ export default {
   data() {
     return {
       store,
+      firstNotChecked: "",
     };
   },
   mounted() {
     if (localStorage.checkedStops) {
       store.checkedStops = localStorage.checkedStops.split(",");
+
+      this.firstNotChecked = store.locationsName.find(
+        (location) => !store.checkedStops.includes(location)
+      );
+      console.log(this.firstNotChecked);
+      let firstNotCheckedElement = document
+        .querySelector(`input[value="${this.firstNotChecked}"]`)
+        ?.closest(".card-custom");
+      firstNotCheckedElement.scrollIntoView();
     }
   },
 };
