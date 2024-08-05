@@ -23,8 +23,8 @@ export default {
       <div class="travel-wrapper">
         <ul v-for="(dayTrip, id) in store.USATrip" :key="id">
           <h4>{{ dayTrip.date }} | {{ dayTrip.title }}</h4>
-          <li v-for="(stop, id) in dayTrip.stops" :key="id">
-            <StopCard :stopObj="stop" :stopId="id" />
+          <li v-for="(stop, stopId) in dayTrip.stops" :key="stopId">
+            <StopCard :stopObj="stop" :stopId="stopId" :dayId="id" />
           </li>
         </ul>
       </div>

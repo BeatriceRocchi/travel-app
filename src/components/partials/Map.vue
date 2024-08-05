@@ -41,16 +41,20 @@ export default {
       state.locations.forEach(function (location, i) {
         let element = document.createElement("div");
         element.classList.add("marker");
-        element.innerHTML = `<i class="fa-solid fa-location-dot"></i>`;
-        element.style.fontSize = "2rem";
-        element.style.color = "#9b5de5";
+        element.innerHTML = `
+        <div class="col-md-1 d-flex flex-column align-items-center stop-id-box">
+          <i class="fa-solid fa-location-pin"></i>
+          <p class="id mt-2">${i + 1}</p>
+        </div>`;
+        element.style.fontSize = "1rem";
 
         var marker = new tomtom.Marker({ element: element })
           .setLngLat(location)
           .addTo(map);
-        const popup = new tt.Popup({ anchor: "top" }).setText(
-          store.locationsName[i]
-        );
+        const popup = new tt.Popup({
+          anchor: "top",
+          className: "custom-popup",
+        }).setHTML(`<b>${store.locationsName[i]}</b>`);
         marker.setPopup(popup).togglePopup();
       });
     };

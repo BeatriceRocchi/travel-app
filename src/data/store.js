@@ -5,4 +5,5 @@ export const store = reactive({
   USATrip,
   locationsName: [],
   checkedStops: [],
+  notes: [],
 });
