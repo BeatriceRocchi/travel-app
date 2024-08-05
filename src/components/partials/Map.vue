@@ -61,13 +61,31 @@ export default {
 
     onMounted(() => {
       const tt = window.tt;
-      const focus = { lat: 37.79, lng: -122.41 };
+
+      let focus = { lat: 37.79, lng: -122.41 };
+
+      if (localStorage.checkedStops) {
+        store.checkedStops = localStorage.checkedStops.split(",");
+
+        let focusStop = store.checkedStops.pop();
+
+        for (let i = 0; i < store.USATrip.length; i++) {
+          for (let j = 0; j < store.USATrip[i].stops.length; j++) {
+            if (store.USATrip[i].stops[j].title === focusStop) {
+              let latFocusStopLat = store.USATrip[i].stops[j].lat;
+              let longFocusStopLat = store.USATrip[i].stops[j].long;
+
+              focus = { lat: latFocusStopLat, lng: longFocusStopLat };
+            }
+          }
+        }
+      }
 
       var map = tt.map({
         key: "8IsdBWbimG2u5UKipp1qOpjv5WEgaEzY",
         container: mapRef.value,
         center: focus,
-        zoom: 15,
+        zoom: 14,
       });
 
       map.addControl(new tt.FullscreenControl());

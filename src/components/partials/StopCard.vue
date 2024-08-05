@@ -14,12 +14,20 @@ export default {
     getImgPath(img) {
       return new URL(`../../assets/img/${img}`, import.meta.url).href;
     },
+
     saveCheckedStops() {
       localStorage.setItem("checkedStops", store.checkedStops);
     },
 
     saveNotes() {
       localStorage.setItem("notes", store.notes);
+    },
+  },
+  computed: {
+    checkedClass() {
+      if (store.checkedStops.includes(this.stopObj.title)) {
+        return "checked";
+      }
     },
   },
 };
@@ -34,8 +42,8 @@ export default {
         <p class="id">{{ store.locationsName.indexOf(stopObj.title) + 1 }}</p>
 
         <input
-          class="stop-check"
-          :checked="store.checkedStops.includes(stopObj.title) ? 'checked' : ''"
+          class="form-check-input stop-check"
+          :checked="checkedClass"
           type="checkbox"
           name="checkStop"
           :id="stopId"
@@ -43,13 +51,30 @@ export default {
           v-model="store.checkedStops"
           @change="saveCheckedStops()"
         />
+        <label
+          v-if="store.checkedStops.includes(stopObj.title)"
+          for="checkStop"
+          class="form-check-label label-custom"
+          >Visitato</label
+        >
       </div>
 
-      <!-- Colonna titolo della tappa e descrizione -->
+      <!-- Colonna titolo della tappa, descrizione e note -->
       <div class="col-md-7">
         <div class="card-body">
           <h5 class="card-title">{{ stopObj.title }}</h5>
           <p class="card-text">{{ stopObj.description }}</p>
+
+          <div class="d-flex align-items-center">
+            <i class="fa-solid fa-note-sticky icon-custom"></i>
+            <textarea
+              class="form-control"
+              name="note"
+              :id="stopId"
+              v-model="store.notes[store.locationsName.indexOf(stopObj.title)]"
+              @change="saveNotes()"
+            ></textarea>
+          </div>
         </div>
       </div>
 
@@ -62,24 +87,6 @@ export default {
         />
       </div>
     </div>
-
-    <div class="row g-0">
-      <div class="col-md-1"></div>
-      <div class="col-md-11 note-box">
-        <div class="input-group mb-5">
-          <span class="input-group-text"
-            ><i class="fa-solid fa-note-sticky"></i
-          ></span>
-          <textarea
-            class="form-control"
-            name="note"
-            :id="stopId"
-            v-model="store.notes[store.locationsName.indexOf(stopObj.title)]"
-            @change="saveNotes()"
-          ></textarea>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -90,8 +97,13 @@ export default {
   background-color: transparent;
   border: none;
 
-  .note-box {
-    padding-left: 16px;
+  .icon-custom {
+    font-size: 1.6rem;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+    color: white;
+    background-color: $secondary-color;
   }
 
   .img-box {
