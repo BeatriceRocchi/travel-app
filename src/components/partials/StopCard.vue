@@ -8,6 +8,7 @@ export default {
   data() {
     return {
       store,
+      vote: 0,
     };
   },
   methods: {
@@ -22,7 +23,12 @@ export default {
     saveNotes() {
       localStorage.setItem("notes", store.notes);
     },
+
+    setVote(n) {
+      this.vote = n;
+    },
   },
+
   computed: {
     checkedClass() {
       if (store.checkedStops.includes(this.stopObj.title)) {
@@ -62,7 +68,18 @@ export default {
       <!-- Colonna titolo della tappa, descrizione e note -->
       <div class="col-md-7">
         <div class="card-body">
-          <h5 class="card-title">{{ stopObj.title }}</h5>
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title">{{ stopObj.title }}</h5>
+            <div>
+              <i
+                v-for="n in 5"
+                :key="n"
+                class="fa-star fa-solid"
+                :class="{ full: n <= vote, empty: n > vote }"
+                @click="setVote(n)"
+              ></i>
+            </div>
+          </div>
           <p class="card-text">{{ stopObj.description }}</p>
 
           <div class="d-flex align-items-center">
@@ -115,6 +132,15 @@ export default {
       height: 100%;
       width: 100%;
       object-fit: cover;
+    }
+  }
+
+  .fa-star {
+    &.full {
+      color: $vote-color;
+    }
+    &.empty {
+      color: white;
     }
   }
 }

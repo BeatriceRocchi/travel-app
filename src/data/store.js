@@ -6,5 +6,5 @@ export const store = reactive({
   locationsName: [],
   checkedStops: [],
   notes: [],
-  firstNotChecked: "Union Square",
+  votes: [],
 });

@@ -9,72 +9,56 @@
           "description": "Union Square è la piazza centrale di Downtown San Francisco ma non solo: è un luogo di ritrovo, un punto dove sedersi e rilassarsi dopo tanto shopping, o un posto perfetto per partire alla scoperta delle strade vicine ricche di negozi di grandi marche, così come di boutique o centri commerciali, piene di ristoranti e bar che offrono qualsiasi tipo di cucina tu possa immaginare, gallerie d’arte e teatri, hotel rinomati e importanti musei.",
           "img": "union-square.jpeg",
           "lat": 37.79,
-          "long": -122.41,
-          "note": "",
-          "rating": 0
+          "long": -122.41
         },
         {
           "title": "Salesforce Tower",
           "description": "La Salesforce Tower è un grattacielo ad uso uffici situato nel quartiere South of Market della città statunitense di San Francisco. Con un'altezza complessiva di 326 metri, è il grattacielo più alto della città di San Francisco e il secondo più alto della California. Il Salesforce Transit Center ha aperto il Salesforce Park, un parco urbano che è diventato un popolare punto di riferimento per il centro. Estendendosi su quasi 4 isolati, questo parco sul tetto di 5,4 acri presenta uno splendido paesaggio con 600 alberi, 16.000 piante e una fontana lineare.",
           "img": "salesforce-tower.jpg",
           "lat": 37.79,
-          "long": -122.396,
-          "note": "",
-          "rating": 0
+          "long": -122.396
         },
         {
           "title": "Ferry Building",
           "description": "Una volta il Ferry Building era un importante snodo per i trasporti: negli anni ’20 dalle vicinanze della baia vi si riversavano ogni giorno ben 50000 pendolari, facendo del luogo una sorta di crocevia frenetico. Oggi il Ferry Building si presenta in un modo completamente diverso: un luogo di quiete e tranquillità, dove spicca, nella brezza mattutina, un suggestivo campanile ispirato alla Giralda la torre campanaria della cattedrale di Siviglia che da più di 100 anni fa bella mostra di se. I momenti migliori per visitare il Ferry Building sono quando c’è il Ferry Plaza Farmers Market, quando bancarelle di ogni tipo sono disposte intorno alla costruzione, lasciandovi un’ampia scelta per le vostre colazioni o pranzi.",
           "img": "ferry-building.jpg",
           "lat": 37.795,
-          "long": -122.394,
-          "note": "",
-          "rating": 0
+          "long": -122.394
         },
         {
           "title": "Transamerica Pyramid",
           "description": "Al momento della sua inaugurazione nel 1972, la Transamerica Pyramid con i suoi 260 metri era il grattacielo più alto di San Francisco e di tutti gli Stati Uniti occidentali. In città, però, la sua altezza e le sue forme eccentriche lo resero sin da subito un simbolo di San Francisco. La Transamerica Pyramid fa parte del complesso denominato Transamerica Pyramid Center che comprende anche gli edifici 3 Transamerica e 2 Transamerica oltre al Transamerica Redwood Park, che si estende per 2.000 metri quadri.",
           "img": "transamerica-pyramid.jpg",
           "lat": 37.795,
-          "long": -122.403,
-          "note": "",
-          "rating": 0
+          "long": -122.403
         },
         {
           "title": "Chinatown",
           "description": "La Chinatown di San Francisco è la più grande comunità cinese fuori dall’Asia. È stata fondata nel 1848, anno che diede inizio ad un flusso migratorio da Guangdong e Hong Kong fino al ‘900, ed è l’area più densamente popolata ad ovest di Manhattan. Tra i suoi confini vivono più di 100.000 persone, molte delle quali parlano solo cinese mandarino o cantonese. Tra arte, templi e tè, la Chinatown più antica degli Stati Uniti vi catapulterà in una dimensione totalmente nuova.",
           "img": "chinatown.jpg",
           "lat": 37.795,
-          "long": -122.404,
-          "note": "",
-          "rating": 0
+          "long": -122.404
         },
         {
           "title": "Fisherman's Wharf e Pier 39",
           "description": "Fisherman’s Wharf, l’antico quartiere di pescatori situato a nord-est della città, oggi un bizzarro caravanserraglio di attrazioni più o meno turistiche. C’è chi raggiunge Fisherman’s Wharf perché vuole vedere il famoso Pier 39, il molo commerciale di San Francisco per eccellenza, con i suoi flaccidi e rumorosi leoni marini spiaggiati sulle chiatte, i ristoranti di pesce, le bizzarre attrazioni e le trappole per i turisti.",
           "img": "fisherman.jpg",
           "lat": 37.809,
-          "long": -122.413,
-          "note": "",
-          "rating": 0
+          "long": -122.413
         },
         {
           "title": "Alcatraz",
           "description": "La prigione di Alcatraz (spesso indicato unicamente come Alcatraz o The Rock, a indicare che la maggior parte di esso sorge su uno sperone roccioso) era un carcere federale statunitense di massima sicurezza ubicato sull'isola di Alcatraz, a circa 2 km al largo della costa di San Francisco, in California, negli Stati Uniti, che fu operativo dall'11 agosto 1934 al 21 marzo 1963.",
           "img": "alcatraz.jpg",
           "lat": 37.826,
-          "long": -122.423,
-          "note": "",
-          "rating": 0
+          "long": -122.423
         },
         {
           "title": "Lombard St",
           "description": "Lombard Street è una via unica e, grazie ai suoi famosi tornanti, è forse una delle strade più famose e fotografate al mondo.",
           "img": "lombardSt.jpg",
           "lat": 37.802,
-          "long": -122.419,
-          "note": "",
-          "rating": 0
+          "long": -122.419
         }
       ]
     },
@@ -87,45 +71,35 @@
           "description": "Queste case in stile vittoriano, poste una accanto all’altra, all’angolo di Alamo Square, colpiscono per la varietà delle colorazioni e la raffinata eleganza, è davvero difficile che il vostro occhio non si soffermi sulle seven sisters (“7 sorelle”), un altro nomignolo ricorrente con cui vengono spesso apostrofate, e non è un caso che, insieme ad attrazioni “iconiche” come Lombard Street e Golden Gate, siano uno dei soggetti più fotografati di tutta San Francisco.",
           "img": "painted-ladies.jpg",
           "lat": 37.78,
-          "long": -122.43,
-          "note": "",
-          "rating": 0
+          "long": -122.43
         },
         {
           "title": "Golden Gate Park",
           "description": "Il Golden Gate Park è un grande parco rettangolare di San Francisco visitato da più di 10 milioni di persone ogni anno. Dall’alto potrebbe ricordare Central Park per via della forma e della grandezza, ma il Golden Gate Park lo supera di 70 ettari e risulta essere il quinto parco cittadino più visitato degli Stati Uniti. Nella sua lunghezza (4,5 chilometri), offre piste ciclabili, musei, laghetti, giardini e ampi spiazzi per rilassarsi dopo una faticosa giornata tra le salite di San Francisco.",
           "img": "golden-gate-park.jpg",
           "lat": 37.77,
-          "long": -122.48,
-          "note": "",
-          "rating": 0
+          "long": -122.48
         },
         {
           "title": "Palace of Fine Arts",
           "description": "Il Palace of Fine Arts è sicuramente una delle architetture più originali e riconoscibili presenti a San Francisco. Si tratta di una costruzione dalle forme architettoniche classicheggianti, costruita agli inizi del ‘900 in occasione dell’esposizione internazionale Panama Pacific. In precedenza al suo interno si trovava anche la sede del curioso Exploratorium, che nel 2013 è stato però spostato nella sua attuale sede all’Embarcadero.",
           "img": "palaceArts.jpg",
           "lat": 37.803,
-          "long": -122.449,
-          "note": "",
-          "rating": 0
+          "long": -122.449
         },
         {
           "title": "Golden Gate Bridge",
           "description": "Il Golden Gate, lungo 2,7 chilometri e alto 227 metri, è uno dei ponti sospesi più grandi del mondo, nonché il simbolo più ammirato e più emblematico della città di San Francisco.",
           "img": "goldenGateBridge.jpg",
           "lat": 37.817,
-          "long": -122.478,
-          "note": "",
-          "rating": 0
+          "long": -122.478
         },
         {
           "title": "Sausalito",
           "description": "Sausalito nel nord-ovest californiano, un tempo villaggio di pescatori, poi cantiere navale durante la seconda guerra mondiale e successivamente ambita meta turistica, località così rinomata da essersi guadagnata il titolo di Portofino della California.",
           "img": "sausalito.jpg",
           "lat": 37.857,
-          "long": -122.48,
-          "note": "",
-          "rating": 0
+          "long": -122.48
         }
       ]
     },
@@ -138,45 +112,35 @@
           "description": "L'Università di Stanford è un'università privata degli Stati Uniti d'America situata in California, adiacente alla città di Palo Alto, estendendosi di fatto nel cuore della Silicon Valley. E' qui che Steve Jobs tenne il suo famoso discorso  ai laureati (stay hungry, stay foolish).",
           "img": "stanford.jpeg",
           "lat": 37.428,
-          "long": -122.17,
-          "note": "",
-          "rating": 0
+          "long": -122.17
         },
         {
           "title": "Googleplex",
           "description": "Il Googleplex è il vasto quartier generale dell'azienda statunitense Google LLC e Alphabet Inc., situato a Mountain View, in California. Il complesso si estende per 190.000 metri quadrati, diventando il secondo ufficio più grande di Google dopo quello al 111 Eighth Avenue di New York City.",
           "img": "googleplex.jpg",
           "lat": 37.422,
-          "long": -122.086,
-          "note": "",
-          "rating": 0
+          "long": -122.086
         },
         {
           "title": "Computer History Museum",
           "description": "The Computer History Museum è un museo fondato nel 1996 a Mountain View in California, quando il The Computer Museum (TCM a Boston) spedì la maggioranza della sua collezione storica di mainframe e articoli al Moffett Federal Airfield, così che il TCM potesse concentrare i pezzi da esposizione per i bambini.",
           "img": "computerMuseum.jpg",
           "lat": 37.414,
-          "long": -122.078,
-          "note": "",
-          "rating": 0
+          "long": -122.078
         },
         {
           "title": "Mountain View",
           "description": "Mountain View è una città della contea di Santa Clara, California che prende il nome dalle sue vedute sulle Montagne di Santa Cruz ed è sede di molte aziende di alta tecnologia",
           "img": "mountainView.jpg",
           "lat": 37.233,
-          "long": -122.023,
-          "note": "",
-          "rating": 0
+          "long": -122.023
         },
         {
           "title": "Apple Park",
           "description": "Apple Park è una struttura architettonica situata a Cupertino nel cuore della Silicon Valley di proprietà di Apple, che funge da sede aziendale. Le sue strutture di ricerca e sviluppo sono occupate da oltre 2.000 persone. Ha sostituito la sede originale in 1 Infinite Loop, inaugurato nel 1993.",
           "img": "applePark.jpg",
           "lat": 37.233,
-          "long": -122.023,
-          "note": "",
-          "rating": 0
+          "long": -122.023
         }
       ]
     },
@@ -189,36 +153,28 @@
           "description": "L’area di Yosemite dove si trovano le sequoie (e soprattutto il noto Grizzly Giant) si chiama Mariposa Grove of Giant Sequoias. La troverai a sud del parco, a una distanza di poco più di un’ora dalla Yosemite Valley vera e propria. L’area è stata sottoposta a un progetto di restauro durato anni ed è stata riaperta al pubblico nel giugno del 2018, totalmente rinnovata.",
           "img": "mariposa.jpg",
           "lat": 37.509,
-          "long": -119.607,
-          "note": "",
-          "rating": 0
+          "long": -119.607
         },
         {
           "title": "Glacier Point",
           "description": "Glacier Point è uno dei punti di osservazione più popolari nel parco nazionale di Yosemite e offre panorami impareggiabili su Yosemite Valley, Yosemite Falls e sulla famosa cima di Half Dome. Si trova ad un’altitudine di 2.199 metri e a più di 900 metri d’altezza dall’Half Dome Village.",
           "img": "glacierPoint.jpg",
           "lat": 37.727,
-          "long": -119.575,
-          "note": "",
-          "rating": 0
+          "long": -119.575
         },
         {
           "title": "El Capitan Meadow",
           "description": "Il parco ospita 8 monoliti di granito in tutto, ed El Capitan ne è un po’ il simbolo, visto che si tratta di uno dei massi granitici più alti al mondo (1100 metri). Per vederlo vi basterà percorrere in macchina El Portal Road (la 140), la strada che dall’Arch Rock Entrance si spinge fino a Yosemite Valley. Durante il tragitto vedrete molti turisti che si fermeranno, tante macchine parcheggiate e un enorme monolite che si staglia imponente contro il cielo.",
           "img": "elCapitan.jpg",
           "lat": 37.723,
-          "long": -119.638,
-          "note": "",
-          "rating": 0
+          "long": -119.638
         },
         {
           "title": "Mono Lake",
           "description": "Mono Lake è un lago alcalino di origine vulcanica, il secondo più antico di tutta l’America del nord. La concentrazione salina dell’acqua è altissima, a causa della presenza di ioni carbonati che, incontrando il calcio presente nelle acque scaturite dalle sorgenti, hanno dato luogo ad alcune strane concrezioni saline, che sono in assoluto il motivo d’interesse più affascinante del lago: le torri di tufo che svettano verticali sulle sponde e nelle isole al centro del lago (Pahoa Island e Negit Island) possono evocare le fascinazioni e l’atmosfera del quadro di Friedrich “Mare di ghiaccio”.",
           "img": "monoLake.jpg",
           "lat": 37.971,
-          "long": -119.102,
-          "note": "",
-          "rating": 0
+          "long": -119.102
         }
       ]
     }
