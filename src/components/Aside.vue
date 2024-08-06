@@ -32,9 +32,11 @@ export default {
         >
           <div class="accordion-body accordion-body-custom">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              nihil obcaecati doloremque aspernatur at fuga quidem voluptatem
-              vero commodi laudantium.
+              Alla scoperta degli Stati Uniti Occidentali. Visita le eclettiche
+              città di San Francisco e Los Angeles, lasciati affascinare
+              dall'imponenza dello Yosemite, immergiti nella natura camminando
+              nel Grand Canyon e nello Zion Park e fatti travolgere dalle luci
+              di Las Vegas.
             </p>
           </div>
         </div>
