@@ -38,7 +38,7 @@ export default {
 .travel-wrapper {
   height: calc(100vh - 80px);
   overflow-y: auto;
-  padding: 20px 30px;
+  padding: 20px;
   width: 100%;
   background-color: rgba($secondary-color, 0.15);
 }
