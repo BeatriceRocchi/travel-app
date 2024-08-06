@@ -100,13 +100,21 @@ export default {
         </div>
       </div>
 
-      <!-- Colonna immagine della tappa -->
-      <div class="col-md-4 img-box">
-        <img
-          :src="getImgPath(stopObj.img)"
-          class="img-fluid rounded-start rounded-end"
-          :alt="stopObj.title"
-        />
+      <!-- Colonna immagine della tappa e attività -->
+      <div class="col-md-4">
+        <div class="img-box">
+          <img
+            :src="getImgPath(stopObj.img)"
+            class="img-fluid rounded-start rounded-end"
+            :alt="stopObj.title"
+          />
+        </div>
+
+        <ul class="activities-box">
+          <li v-for="(activity, id) in stopObj.activities" :key="id">
+            <i :class="activity"></i>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -137,6 +145,18 @@ export default {
       height: 100%;
       width: 100%;
       object-fit: cover;
+    }
+  }
+
+  .activities-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      color: $primary-color;
+      padding: 10px 8px;
+      font-size: 1.5rem;
     }
   }
 

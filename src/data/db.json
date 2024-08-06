@@ -9,7 +9,8 @@
           "description": "Union Square è la piazza centrale di Downtown San Francisco ma non solo: è un luogo di ritrovo, un punto dove sedersi e rilassarsi dopo tanto shopping, o un posto perfetto per partire alla scoperta delle strade vicine ricche di negozi di grandi marche, così come di boutique o centri commerciali, piene di ristoranti e bar che offrono qualsiasi tipo di cucina tu possa immaginare, gallerie d’arte e teatri, hotel rinomati e importanti musei.",
           "img": "union-square.jpeg",
           "lat": 37.79,
-          "long": -122.41
+          "long": -122.41,
+          "activities": ["fa-solid fa-bag-shopping", "fa-solid fa-utensils"]
         },
         {
           "title": "Salesforce Tower",

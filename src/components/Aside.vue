@@ -11,8 +11,8 @@ export default {
 </script>
 
 <template>
-  <aside>
-    <div class="accordion" id="accordionPanelsStayOpenExample">
+  <aside class="d-flex h-auto justify-content-center">
+    <div class="accordion accordion-custom" id="accordionPanelsStayOpenExample">
       <div class="accordion-item accordion-item-custom">
         <h2 class="accordion-header">
           <button
@@ -73,9 +73,13 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/scss/partials/variables";
 aside {
-  width: 250px;
+  min-width: 250px;
   height: calc(100vh - 80px);
   overflow-y: auto;
+
+  .accordion-custom {
+    width: 100%;
+  }
 
   .accordion-item-custom {
     border: none;
@@ -103,6 +107,12 @@ aside {
     .day-title {
       font-size: 0.7rem;
     }
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .accordion-custom {
+    max-width: 250px;
   }
 }
 </style>

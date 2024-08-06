@@ -18,7 +18,7 @@ export default {
 
 <template>
   <main>
-    <div class="d-md-flex">
+    <div class="d-lg-flex">
       <Aside />
       <div class="travel-wrapper">
         <ul v-for="(dayTrip, id) in store.USATrip" :key="id">
