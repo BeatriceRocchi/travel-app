@@ -33,6 +33,11 @@ export default {
     if (localStorage.notes) {
       store.notes = localStorage.notes.split(",");
     }
+
+    if (localStorage.votes) {
+      console.log(localStorage.votes);
+      store.votes = localStorage.votes.split(",");
+    }
   },
 };
 </script>

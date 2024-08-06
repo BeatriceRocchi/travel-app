@@ -26,6 +26,8 @@ export default {
 
     setVote(n) {
       this.vote = n;
+      store.votes[this.stopId] = n;
+      localStorage.setItem("votes", store.votes);
     },
   },
 
@@ -75,7 +77,10 @@ export default {
                 v-for="n in 5"
                 :key="n"
                 class="fa-star fa-solid"
-                :class="{ full: n <= vote, empty: n > vote }"
+                :class="{
+                  full: n <= store.votes[stopId],
+                  empty: n > store.votes[stopId],
+                }"
                 @click="setVote(n)"
               ></i>
             </div>
@@ -136,6 +141,8 @@ export default {
   }
 
   .fa-star {
+    color: white;
+
     &.full {
       color: $vote-color;
     }

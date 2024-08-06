@@ -51,6 +51,7 @@ export default {
         var marker = new tomtom.Marker({ element: element })
           .setLngLat(location)
           .addTo(map);
+
         const popup = new tt.Popup({
           anchor: "top",
           className: "custom-popup",
