@@ -9,8 +9,7 @@
           "description": "Union Square è la piazza centrale di Downtown San Francisco ma non solo: è un luogo di ritrovo, un punto dove sedersi e rilassarsi dopo tanto shopping, o un posto perfetto per partire alla scoperta delle strade vicine ricche di negozi di grandi marche, così come di boutique o centri commerciali, piene di ristoranti e bar che offrono qualsiasi tipo di cucina tu possa immaginare, gallerie d’arte e teatri, hotel rinomati e importanti musei.",
           "img": "union-square.jpeg",
           "lat": 37.79,
-          "long": -122.41,
-          "activities": ["fa-solid fa-bag-shopping", "fa-solid fa-utensils"]
+          "long": -122.41
         },
         {
           "title": "Salesforce Tower",
@@ -130,13 +129,6 @@
           "long": -122.078
         },
         {
-          "title": "Mountain View",
-          "description": "Mountain View è una città della contea di Santa Clara, California che prende il nome dalle sue vedute sulle Montagne di Santa Cruz ed è sede di molte aziende di alta tecnologia",
-          "img": "mountainView.jpg",
-          "lat": 37.233,
-          "long": -122.023
-        },
-        {
           "title": "Apple Park",
           "description": "Apple Park è una struttura architettonica situata a Cupertino nel cuore della Silicon Valley di proprietà di Apple, che funge da sede aziendale. Le sue strutture di ricerca e sviluppo sono occupate da oltre 2.000 persone. Ha sostituito la sede originale in 1 Infinite Loop, inaugurato nel 1993.",
           "img": "applePark.jpg",
@@ -176,6 +168,153 @@
           "img": "monoLake.jpg",
           "lat": 37.971,
           "long": -119.102
+        }
+      ]
+    },
+    {
+      "date": "Lunedì 19 Agosto",
+      "title": "Death Valley e Las Vegas Day 1",
+      "stops": [
+        {
+          "title": "Manzanar",
+          "description": "Manzanar è una località nota per essere stata la sede di un campo di concentramento americano per cittadini giapponesi-americani durante la Seconda guerra mondiale, in base all'Ordine Esecutivo 9066 siglato dal presidente Roosevelt nel febbraio 1942. Manzanar, che significa campo di mele in spagnolo, è stata designata quale sito storico di interesse nazionale dal National Park Service, dato l'eccezionale livello di conservazione delle strutture del campo.",
+          "img": "manzanar.jpg",
+          "lat": 36.729,
+          "long": -118.145
+        },
+        {
+          "title": "Death Valley",
+          "description": "Death Valley National Park, conosciuta anche più semplicemente come Valle della Morte, è uno di quei parchi naturali in grado di segnare in modo indelebile un viaggio in America. Gli inverosimili panorami che la caratterizzano vi daranno l’impressione di essere improvvisamente approdati su un altro pianeta.",
+          "img": "deathValley.jpg",
+          "lat": 36.482,
+          "long": -117.063
+        },
+        {
+          "title": "Las Vegas",
+          "description": "Conosciuta come Sin City, Las Vegas è una meta talmente fuori dalle righe da sorprendere chiunque dei suoi visitatori. Qui l’eccesso è la norma e la sobrietà è un autentico sconosciuto. Questa è la patria del gioco d’azzardo, degli spettacoli pirotecnici e di una spasmodica ricerca di felicità portata all’estremo e senza controllo, che finisce sovente per contraddire se stessa.",
+          "img": "lasVegas.jpg",
+          "lat": 36.116,
+          "long": -115.173
+        }
+      ]
+    },
+    {
+      "date": "Martedì 20 Agosto",
+      "title": "Las Vegas Day 2",
+      "stops": [
+        {
+          "title": "Las Vegas Strip",
+          "description": "La Strip, illuminata dai neon e fiancheggiata da casinò hotel di lusso, è la zona più famosa di Las Vegas. Oltre alle sale per il gioco d'azzardo, i grandi complessi alberghieri ospitano una vasta gamma di negozi, ristoranti (da quelli tradizionali a quelli esclusivi) e strutture per spettacoli musicali, umoristici e circensi. Molti visitatori amano frequentare attrazioni come le imponenti e coreografiche Fountains of Bellagio e la ruota panoramica High Roller.",
+          "img": "strip.jpg",
+          "lat": 36.124,
+          "long": -115.17
+        },
+        {
+          "title": "Hoover Dam",
+          "description": "La diga di Hoover è una diga di tipo a arco-gravità in calcestruzzo armato realizzata nel 1935 e situata nel Black Canyon lungo il corso del fiume Colorado, sul confine tra lo Stato dell'Arizona e del Nevada: un portento dell’ingegneria.",
+          "img": "hooverDam.jpg",
+          "lat": 36.017,
+          "long": -114.735
+        }
+      ]
+    },
+    {
+      "date": "Mercoledì 21 Agosto",
+      "title": "Zion Park",
+      "stops": [
+        {
+          "title": "Zion Park",
+          "description": "Cuore del parco è il canyon di Zion, una gola lunga 24 km e profonda 800 m, scavata dal ramo settentrionale del Virgin River. Il Parco nazionale di Zion protegge un ambiente unico dove si incontrano imponenti formazioni rocciose e profonde gole incise e modellate dalla forza delle acque del fiume Virgin e dei suoi affluenti. La varietà di ambienti naturali fa sì che la flora e la fauna siano estremamente variegate. Comprendono numerose specie a rischio di estinzione, che nel parco sono protette e tutelate. Oltre alle ricchezze naturali, il parco vanta numerose tracce della presenza millenaria dell'uomo.",
+          "img": "zion.jpg",
+          "lat": 36.124,
+          "long": -115.17
+        },
+        {
+          "title": "Kolob Canyons",
+          "description": "I Kolob Canyons sono un gruppo di strette e profonde gole con alte pareti in arenaria rossa, che si trovano in una zona remota dello Zion National Park. Quest’area fa parte del parco nazionale dal 1956, ma in precedenza era già un National Monument a partire dal 1937.",
+          "img": "kolob.jpg",
+          "lat": 37.286,
+          "long": -113.011
+        }
+      ]
+    },
+    {
+      "date": "Giovedì 22 Agosto",
+      "title": "Bryce Canyon Park",
+      "stops": [
+        {
+          "title": "Bryce Canyon Park",
+          "description": "Il Bryce Canyon National Park, istituito nel 1928 e così denominato in onore del mormone Ebenezer Bryce, può vantarsi di possedere alcune delle rocce più colorate della Terra, i famosi “hoodoos“, pinnacoli del tutto singolari scolpiti da fenomeni naturali d’erosione. Il Bryce, nonostante il nome, in realtà non è un vero e proprio canyon, piuttosto somiglia di più a una serie di anfiteatri a forma di cavallo, il più grande dei quali è appunto il Bryce Amphitheater, sito nel cuore dell’area. Il parco è aperto tutto l’anno ed escursioni, visite turistiche e attività fotografiche sono le tre attività principali.",
+          "img": "bryceCanyon.jpg",
+          "lat": 37.691,
+          "long": -112.155
+        }
+      ]
+    },
+    {
+      "date": "Venerdì 23 Agosto",
+      "title": "Arches National Park",
+      "stops": [
+        {
+          "title": "Arches National Park",
+          "description": "Il Parco nazionale degli Arches è un'area naturale protetta degli Stati Uniti che tutela oltre 2.000 archi naturali di arenaria (luogo con la più alta densità al mondo), tra cui il famoso Delicate Arch, oltre ad una varietà di altre formazioni geologiche uniche.",
+          "img": "arches.jpg",
+          "lat": 38.689,
+          "long": -109.577
+        },
+        {
+          "title": "Moab",
+          "description": "Moab in Utah è una città davvero cruciale per la visita di almeno metà dei fenomenali Mighty Five, e non solo! Non a caso, di questa deliziosa cittadina situata in una posizione davvero fortunata dello Utah sud-orientale: da Arches a Canyonlands, passando per piccole chicche come Goblin Valley o Dead Horse Point State Park, oltre a una corposa lista di itinerari, percorsi a piedi ed escursioni nei ricchissimi dintorni.",
+          "img": "moab.jpg",
+          "lat": 38.572,
+          "long": -109.551
+        }
+      ]
+    },
+    {
+      "date": "Sabato 24 Agosto",
+      "title": "Monument Valley e Page",
+      "stops": [
+        {
+          "title": "Goosenecks Park",
+          "description": "Avete presente la vista che si può ammirare visitando l’Horseshoe Bend? Ecco moltiplicatela per tre, togliete qualche turista, e avrete un’idea di quello che vi può attendere al Goosenecks State Park. Una terrazza naturale dalla quale potrete ammirare quello che è riuscito a fare il San Juan River (che adesso scorre placido 300 metri sotto di voi) nel corso di migliaia di anni. Potrete inoltre godervi la vostra visita in tutta tranquillità. Non sono molti infatti a conoscere questa vera e propria perla nascosta e anche in alta stagione avrete modo di godervi questo spettacolo senza troppo caos intorno.",
+          "img": "goosenecks.jpg",
+          "lat": 37.178,
+          "long": -109.924
+        },
+        {
+          "title": "Monument Valley",
+          "description": "La Riserva Navajo di Monument Valley rappresenta oramai l’immaginario Western americano per eccellenza. Non è un caso che questa incredibile meraviglia naturale abbia fatto da cornice per moltissimi film dedicati a cowboy e Far West. Insieme al Little Colorado River Gorge, al Four Corners Monument e al Lake Powell Navajo Tribal Park, la Monument Valley è uno dei parchi più importanti che si trovano all’interno della Navajo Nation; l’area gestita dai nativi più grande degli Stati Uniti.",
+          "img": "monumentValley.jpg",
+          "lat": 39.988,
+          "long": -110.179
+        },
+        {
+          "title": "Horseshoe Bend",
+          "description": "Horseshoe Bend è un meandro a forma di ferro di cavallo del fiume Colorado River vicino alla città di Page, da cui dista circa 6 km. Il punto panoramico di Horseshoe Bend è alto 1300 metri sopra il livello del mare, slanciandosi in altezza sulla superficie del fiume Colorado per circa 300 metri. Si tratta di uno spot fotografico immancabile per qualsiasi viaggio nel Southwest americano.",
+          "img": "horseshoeBend.jpg",
+          "lat": 36.875,
+          "long": -111.509
+        }
+      ]
+    },
+    {
+      "date": "Domenica 25 Agosto",
+      "title": "Antelope Canyon e Grand Canyon Day 1",
+      "stops": [
+        {
+          "title": "Antelope Canyon",
+          "description": "L'Antelope Canyon consiste di due formazioni: Antelope Canyon superiore e Antelope Canyon inferiore. Il rift che ha generato i due canyon, nel suo percorso verso il lago Powell, trova per primo uno sbarramento costituito da una formazione di arenaria posta trasversalmente al suo percorso. Qui genera l'Antelope Canyon superiore lungo solamente duecentosettanta metri, più agevole e facile. Proseguendo l'avvicinamento verso il lago, l'erosione penetra nel terreno generando il più lungo e meno agevole Antelope Canyon inferiore, lungo oltre quattro chilometri. Entrambi i tratti, visitabili solo con l'assistenza delle guide Navaho, costituiscono una vera meraviglia della natura, e sono una vera sfida per i fotografi a causa delle difficili condizioni di luce.",
+          "img": "antelope.jpg",
+          "lat": 36.863,
+          "long": -111.376
+        },
+        {
+          "title": "Grand Canyon",
+          "description": "Il Grand Canyon è un'immensa gola (lunga 446 chilometri circa, profonda fino a 1.857 metri, con una larghezza variabile dai 500 metri ai 29 chilometri) creata dal fiume Colorado nell'Arizona settentrionale: quasi due miliardi di anni della storia della Terra sono emersi alla luce grazie all'azione del fiume e dei suoi affluenti che in milioni di anni hanno eroso le rocce strato dopo strato, unita al sollevamento del Colorado Plateau.",
+          "img": "grandCanyon.jpg",
+          "lat": 36.073,
+          "long": -112.094
         }
       ]
     }
