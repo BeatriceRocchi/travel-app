@@ -35,7 +35,6 @@ export default {
     }
 
     if (localStorage.votes) {
-      console.log(localStorage.votes);
       store.votes = localStorage.votes.split(",");
     }
   },

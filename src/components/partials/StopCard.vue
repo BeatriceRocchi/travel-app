@@ -81,7 +81,7 @@ export default {
                   >Visitato</label
                 >
               </div>
-              <div v-if="store.checkedStops[stopId]">
+              <div v-if="store.checkedStops.includes(stopObj.title)">
                 <i
                   v-for="n in 5"
                   :key="n"
