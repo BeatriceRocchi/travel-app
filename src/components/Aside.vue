@@ -81,6 +81,8 @@ aside {
 
   .accordion-custom {
     width: 100%;
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
   }
 
   .accordion-item-custom {
