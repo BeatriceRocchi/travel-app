@@ -317,6 +317,161 @@
           "long": -112.094
         }
       ]
+    },
+    {
+      "date": "Lunedì 26 Agosto",
+      "title": "Grand Canyon Day 2 e Route66",
+      "stops": [
+        {
+          "title": "Bright Angel Trailhead",
+          "description": "Il Bright Angel Trail è il nome di un sentiero, un meraviglioso trekking all’interno delle fantastiche gole del Grand Canyon. Ha inizio in prossimità del Backcountry Information Center (a ovest del Village) e comincia subito a scendere in maniera ripida e panoramica verso il fondo del canyon, fino alle sponde del potente fiume Colorado.",
+          "img": "brightAngel.jpg",
+          "lat": 36.058,
+          "long": -112.129
+        },
+        {
+          "title": "Seligman",
+          "description": "Radiator Springs, lo scenario in cui si svolge gran parte del film d'animazione Cars, è proprio sulla Route 66 e sembrerebbe essere proprio la cittadina di Seligman, come si capisce da tanti indizi che agli appassionati della Mother Road non saranno certo sfuggiti (edifici, cartelli pubblicitari, insegne, panorami, anche se non tutti sono in Arizona).",
+          "img": "seligman.jpg",
+          "lat": 35.324,
+          "long": -112.859
+        }
+      ]
+    },
+    {
+      "date": "Martedì 27 Agosto",
+      "title": "Ghostowns e Joshua Tree National Park",
+      "stops": [
+        {
+          "title": "Oatman",
+          "description": "Oatman è una segreta e minuscola cittadina intrappolata tra le Black Mountains che svettano sul Mojave Desert: poco più di mezzo secolo fa era un’ottima base strategica per i minatori (ci sono ancora un paio di miniere attive) e per i cercatori d’oro, come del resto moltissimi altri antichi nuclei cittadini che, da un momento all’altro, sono diventati ghost town.",
+          "img": "oatman.jpg",
+          "lat": 35.024,
+          "long": -114.383
+        },
+        {
+          "title": "Joshua Tree National Park",
+          "description": "Fra i tanti e meravigliosi parchi americani, il desertico Joshua Tree può rivendicare un fascino unico, a tratti surreale, con i suoi alberi somiglianti a cactus dalle forme contorte e grottesche (Yucca) e gli ammassi rocciosi che si adagiano sul terreno quasi come pietre tombali. All’alba il paesaggio, inondato da una tremula luce rossa, diventa quasi spettrale e di notte potrete godervi un firmamento ammantato di stelle che ricorderete probabilmente per tutta la vita. Nel Joshua Tree National Park avrete dunque l’impressione di essere ai confini del mondo e talvolta in un altro pianeta.",
+          "img": "joshuaTree.jpg",
+          "lat": 33.989,
+          "long": -116.102
+        },
+        {
+          "title": "Pioneertown",
+          "description": "Pioneertown venne inizialmente concepita come un set cinematografico nel 1940 con la particolarità che tutti gli edifici dovevano essere utilizzabili realmente e non come un semplice sfondo statico. In questo modo Pioneertown poteva essere utilizzata dagli attori (anche per pernottare) che dovevano lavorare alle produzioni cinematografiche senza perdere tempo in spostamenti, visto che nelle immediate vicinanze le strutture ricettive scarseggiavano.",
+          "img": "pioneertown.jpg",
+          "lat": 34.156,
+          "long": -116.493
+        }
+      ]
+    },
+    {
+      "date": "Mercoledì 28 Agosto",
+      "title": "Palm Springs, OC e Los Angeles Day 1",
+      "stops": [
+        {
+          "title": "Palm Springs",
+          "description": "Se state percorrendo le lunghe autostrade del deserto della California potreste stupirvi a un certo punto di intravedere una vera e propria oasi, ricca di palme, piscine e campi da golf: siete arrivati in una delle città più particolari dello stato, Palm Springs, ricca di attrazioni naturalistiche e non solo. Negli anni del Dopoguerra e del Rat Pack molte celebrità di Hollywood scelsero questa oasi per ricchi, per costruire le loro ville.",
+          "img": "palmSprings.jpg",
+          "lat": 33.83,
+          "long": -116.547
+        },
+        {
+          "title": "Newport Beach",
+          "description": "Situata fra Los Angeles e San Diego e incorniciata dalle Santa Ana Mountains e l’Oceano Pacifico, la Orange County, la contea più piccola della California, non ha un vero e proprio centro definito ma si presenta piuttosto come un insieme di piccole cittadine. Le spiagge e le cittadine della contea di Orange, fra cui Newport Beach, sono un set molto sfruttato dalle serie tv americane, soprattutto quando il soggetto da ritrarre sono i teenager.",
+          "img": "newportBeach.jpg",
+          "lat": 33.599,
+          "long": -117.871
+        },
+        {
+          "title": "Osservatorio Griffith",
+          "description": "Il Griffith Observatory è stato completato nel 1935 ed è famoso quasi quanto la scritta “Hollywood”. Si rivolge a chiunque “ami lo spazio, la scienza, le fantastiche viste su L.A. e l’architettura art déco dell’edificio”, afferma Bonnie Winings, direttrice di Friends Of The Observatory.",
+          "img": "griffithObservatory.jpg",
+          "lat": 34.118,
+          "long": -118.3
+        }
+      ]
+    },
+    {
+      "date": "Giovedì 29 Agosto",
+      "title": "Los Angeles Day 2",
+      "stops": [
+        {
+          "title": "Warner Bros. Studios",
+          "description": "I Warner Bros. Studios non sono il classico parco a tema cinematografico ma dei veri e propri studi di registrazione in continuo cambiamento a seconda delle esigenze degli show e delle serie televisive che vi si stanno girando al momento.",
+          "img": "warnerBros.jpg",
+          "lat": 34.151,
+          "long": -118.335
+        },
+        {
+          "title": "Hollywood Walk of Fame",
+          "description": "L'Hollywood Walk of Fame (la 'passeggiata delle celebrità') fu creata nel 1958 come simbolo del glamour di Hollywood. Il tratto più famoso dell'Hollywood Boulevard riunisce i nomi di più di 2400 star, alle quali sono dedicate le stelle sul pavimento.",
+          "img": "walkOfFame.jpg",
+          "lat": 36.101,
+          "long": -118.33
+        },
+        {
+          "title": "Venice Beach",
+          "description": "La città, con circa 40.000 abitanti, è stata fondata nel 1905. Rappresenta la realizzazione del sogno dell’imprenditore Abbot Kinney che, dopo aver vinto la terra con il lancio di una monetina, ha potuto così creare la tanto desiderata “Venezia d’America” con un sistema di canali artificiali in un piacevole insieme residenziale e d’intrattenimento. Ora Venice è una vivace città turistica dove le strade principali sono sempre affollate e le persone amano godere la vita all’aria aperta, la  spiaggia, i tramonti ma anche i canali e i murales.",
+          "img": "veniceBeach.jpg",
+          "lat": 33.988,
+          "long": -118.474
+        },
+        {
+          "title": "Molo di Santa Monica",
+          "description": "Chiunque voglia visitare Santa Monica non può che partire da qui, la location più popolare, il pier, il molo sempre aperto, meta frequentatissima sia dai residenti che dai turisti, punto di riferimento in città da più di cent’anni e per questo con una lunga storia alle spalle. Poi non dimentichiamoci che poco oltre il ristorante Bubba Gump ci attende il cartello “Route 66, end of the trail”. Quando il molo fu ufficialmente insignito del titolo di “ultima fermata della Route 66” (la mother road che da Chicago porta a Santa Monica).",
+          "img": "santaMonica.jpg",
+          "lat": 34.007,
+          "long": -118.497
+        }
+      ]
+    },
+    {
+      "date": "Venerdì 30 Agosto",
+      "title": "Malibu e Santa Barbara",
+      "stops": [
+        {
+          "title": "Malibu",
+          "description": "21 miglia di grandi panorami: così recita l’insegna in legno che dà il benvenuto a Malibu, affettuosamente ribattezzata “The Bu” dai locali. Una presentazione niente male, in linea con la notorietà di questa città lungo la Pacific Coast Highway a nord ovest di Santa Monica nella Los Angeles County.",
+          "img": "malibu.jpg",
+          "lat": 34.032,
+          "long": -118.685
+        },
+        {
+          "title": "Santa Barbara",
+          "description": "Santa Barbara è una delle mete più interessanti da visitare sulla costa californiana. Si tratta di una tipica località di mare con belle spiagge, palme frondose e un caratteristico porticciolo. Tuttavia, l’interesse di questa cittadina va ben oltre quello classico delle attrazioni balneari.",
+          "img": "santaBarbara.jpg",
+          "lat": 34.419,
+          "long": -119.7
+        }
+      ]
+    },
+    {
+      "date": "Sabato 31 Agosto",
+      "title": "Carmel-by-the-Sea e Monterey",
+      "stops": [
+        {
+          "title": "Carmel-by-the-Sea",
+          "description": "Adagiata sulle dolci scogliere della penisola di Monterey, Carmel-by-the-Sea (o più semplicemente Carmel) è un villaggio gioiello, una rarità fra le città americane, famosa per le vie ordinate e i negozi chic, le casette in stile fiabesco, la sua bellissima Missione, una non trascurabile vocazione artistica, una spiaggia incontaminata e i prezzi astronomici del mercato immobiliare.",
+          "img": "carmel.jpg",
+          "lat": 36.555,
+          "long": -121.921
+        },
+        {
+          "title": "Monterey",
+          "description": "Monterey, grazie alla sua fortunata posizione, è uno dei punti di passaggio più battuti dei vari viaggi in California: che stiate attraversando la costa, battendo l’impressionante strada panoramica Highway 1, che vi troviate nell’affascinante San Francisco, o che puntiate dritto verso Yosemite National Park, la Monterey Peninsula è una delle tappe da prendere in considerazione per una sosta giornaliera.",
+          "img": "monterey.jpg",
+          "lat": 36.601,
+          "long": -121.894
+        },
+        {
+          "title": "Redwood Park",
+          "description": "Il parco nazionale di Redwood prende il nome dalle sequoie coast redwood (Sequoia sempervirens), così chiamate per il colore rossastro del legno, che sono gli alberi più alti del mondo. Con i suoi 45.500 ettari il parco protegge il 45% delle esistenti sequoie. Il parco protegge inoltre praterie, risorse culturali e 60 chilometri di coste incontaminate.",
+          "img": "redwood.jpg",
+          "lat": 37.434,
+          "long": -122.319
+        }
+      ]
     }
   ]
 }

@@ -76,12 +76,12 @@ export default {
 @import "../assets/scss/partials/variables";
 aside {
   min-width: 250px;
-  height: calc(100vh - 80px);
+  // height: calc(100vh - 80px);
   overflow-y: auto;
 
   .accordion-custom {
     width: 100%;
-    height: calc(100vh - 80px);
+
     overflow-y: scroll;
   }
 
@@ -117,6 +117,7 @@ aside {
 @media all and (min-width: 1024px) {
   .accordion-custom {
     max-width: 250px;
+    height: calc(100vh - 80px);
   }
 }
 </style>
