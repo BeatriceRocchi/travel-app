@@ -36,7 +36,7 @@ export default {
               città di San Francisco e Los Angeles, lasciati affascinare
               dall'imponenza dello Yosemite, immergiti nella natura camminando
               nel Grand Canyon e nello Zion Park e fatti travolgere dalle luci
-              di Las Vegas.
+              di Las Vegas!
             </p>
           </div>
         </div>
