@@ -16,6 +16,8 @@ npm run dev
 
 ## Description
 
+![travelApp](src/assets/TravelApp.gif)
+
 In desktop view the web app is made up of three main components:
 
 1. **Menu**
@@ -41,3 +43,5 @@ In desktop view the web app is made up of three main components:
    This section on the right shows the stops of the trip on a map through the integration of TomTom Map. Upon loading, the map is focused on the last stop visited or, if no stops have been visited yet, on the first stop of the trip.
 
 The web app is also responsive and the layout changes according to the device width to ensure a good user experience. For example, in phone and tablet visualization, the menu is on top of the page and the map is shown through a modal only when the map button on the bottom right of the viewport is clicked.
+
+![travelAppMobile](src/assets/TravelApp_mobile.gif)
