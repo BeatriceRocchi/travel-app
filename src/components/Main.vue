@@ -24,7 +24,9 @@ export default {
       <Aside />
       <div class="travel-wrapper">
         <ul v-for="(dayTrip, id) in store.USATrip" :key="id">
-          <h4>{{ dayTrip.date }} | {{ dayTrip.title }}</h4>
+          <h4 :id="`section-${dayTrip.title}`">
+            {{ dayTrip.date }} | {{ dayTrip.title }}
+          </h4>
           <li v-for="(stop, stopId) in dayTrip.stops" :key="stopId">
             <StopCard :stopObj="stop" :stopId="stopId" :dayId="id" />
           </li>
@@ -80,6 +82,10 @@ export default {
   padding: 20px;
   width: 100%;
   background-color: rgba($secondary-color, 0.15);
+
+  h4 {
+    padding-top: 10px;
+  }
 }
 
 .map-button {

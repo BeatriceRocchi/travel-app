@@ -61,8 +61,10 @@ export default {
           <div class="accordion-body accordion-body-custom">
             <ul>
               <li v-for="(dayTrip, id) in store.USATrip" :key="id" class="mb-3">
-                {{ dayTrip.date }} <br />
-                <span class="day-title">{{ dayTrip.title }}</span>
+                <a :href="`#section-${dayTrip.title}`"
+                  >{{ dayTrip.date }} <br />
+                  <span class="day-title">{{ dayTrip.title }}</span></a
+                >
               </li>
             </ul>
           </div>
