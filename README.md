@@ -2,7 +2,7 @@
 
 Travel App is a web app for planning and managing a summer trip in the West USA.
 
-## Istallation
+## Installation
 
 In order to see and use the web app, just go to the following link: https://raccoonstravel.netlify.app/
 
